@@ -30,7 +30,7 @@ struct ContentView: View {
                 
                 Button(action:{showBio.toggle()})
                 {
-                    Text("Click to learn more about me!")
+                    Text("Click to learn more about me")
                         .font(.headline)
                         .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
                 }
